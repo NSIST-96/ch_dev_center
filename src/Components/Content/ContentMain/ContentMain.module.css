@@ -1,0 +1,21 @@
+.ContentMain{
+    text-align: center;
+    position: relative;
+}
+
+.ContentMain img{
+    position: relative;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.ContentMain_Text{
+    text-align: center;
+    top: 60%;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 20px;
+    text-decoration: yellow;
+    font: bold 24px/44px Helvetica, Sans-Serif;
+}

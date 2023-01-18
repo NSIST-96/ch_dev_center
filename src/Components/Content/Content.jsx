@@ -1,10 +1,11 @@
 import React from 'react'
 import classes from './Content.module.css'
+import ContentMain from './ContentMain/ContentMain';
 
 const Content = (props) =>{
     return(
         <div className={classes.Content}>
-            Content
+            <ContentMain/>
         </div>
     )
 }
