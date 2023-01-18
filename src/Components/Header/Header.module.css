@@ -1,0 +1,62 @@
+.Header{
+    background-color: rgba(255, 255, 255, 0.288);
+    grid-column: 1/-1;
+    position:relative;
+    border-radius: 5px;
+}
+
+.header_input{
+    display: grid;
+    grid-column: repeat(12, 1fr);
+    grid-row: 1fr;
+}
+
+.header_input img{
+    border-radius: 5px;
+    width: 100px;
+    margin: 5px 0 5px 5px;
+}
+.header_input a{
+    text-decoration: none;
+    color: black;
+}
+.header_input p{
+    margin: 0;
+}
+
+.header_phone{
+    text-align: left;
+    margin: 10px 0px 7px 0px;
+    grid-template-columns: minmax(150px, 250px);
+    grid-template-rows: 1fr;
+}
+.header_main{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.041);
+    margin: 7px;
+    border-radius: 5px;
+
+    grid-column: 10;
+    grid-row: 1;
+}
+
+.header_news{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.041);
+    margin: 7px;
+    border-radius: 5px;
+
+    grid-column: 11;
+    grid-row: 1;
+}
+
+.header_contacts{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.041);
+    margin: 7px;
+    border-radius: 5px;
+
+    grid-column: 12;
+    grid-row: 1;
+    
+}
