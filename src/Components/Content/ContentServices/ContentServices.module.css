@@ -1,0 +1,112 @@
+.ContentServices {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr 200px;
+    grid-template-rows: 100px 1fr;
+    height: 100vh;
+}
+
+.ContentServices_Title {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1/-1;
+}
+
+.left_col {
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ScrollLeft {
+    width: 100px;
+}
+
+.ContentServices_ChessStudio{
+    grid-row: 2;
+    grid-column: 2;
+    margin: 5px;
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    height: 80%;
+}
+.ContentServices_ChessStudio img{
+    position: relative;
+    width:100%;
+    border-radius: 10px;
+}
+
+.ContentServices_ChSad {
+    grid-row: 2;
+    grid-column: 3;
+    margin: 5px;
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    height: 80%;
+}
+.ContentServices_ChSad img{
+    position: relative;
+    width:100%;
+    border-radius: 10px;
+}
+
+.ContentServices_DanceStudio {
+    grid-row: 2;
+    grid-column: 4;
+    margin: 5px;
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    height: 80%;
+}
+.ContentServices_DanceStudio img{
+    position: relative;
+    width:100%;
+    border-radius: 10px;
+}
+
+.right_col {
+    grid-row: 2;
+    grid-column: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ScrollRight {
+    position: relative;
+    grid-column-start: auto;
+    width: 100px;
+}
+
+@media (max-width: 900px){
+    .ContentServices {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 50px 300px 50px;
+        grid-template-rows: 100px 1fr;
+        height: 100vh;
+    }
+    .ContentServices_ChSad {
+        display: none;
+    }
+    .ContentServices_DanceStudio {
+        display: none;
+    }
+    .ContentServices_ChessStudio{
+        grid-row: 2;
+        grid-column: 2;
+        margin: 5px 0px 5px 80px;
+        position: relative;
+        text-align: center;
+        background-color: gray;
+        border-radius: 10px;
+        height: 80%;
+    }
+}
