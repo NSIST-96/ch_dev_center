@@ -9,7 +9,7 @@ const ContentMain = (props) => {
             <img src={MainImg} alt='img'/>
                 <div className={classes.ContentMain_Text}>
                     <span>Детский психологический центр развития "Мoзаика" в Калуге ждёт Вас на развивающие занятия...</span><br></br>
-                    <span> Добро пожаловать, дорогие дети, родители, друзья!</span>
+                    <span>Добро пожаловать, дорогие дети, родители, друзья!</span>
                 </div>
                 
             </div>
